@@ -1,0 +1,102 @@
+body{
+    font-family: Arial;
+    color: crimson;
+    margin: 0;
+    background-color: white;
+    transition: background 1s;
+  }
+  .caixa1 {
+  height: 500px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  text-align: center;
+  background-image: url(background.png);
+  background-size: cover;
+}  
+.menu {
+  text-align: right;
+  padding-right: 40px;   
+} 
+.caixa2 {
+  background: #D86D6D;
+  padding-bottom: 50px;
+} 
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.caixa3 {      
+  height: 300px;
+  text-align: center;
+}
+h1{
+  text-align: center;
+  font-size: 48px
+}
+p {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+h4 { 
+  text-align: center;
+}
+.duda {
+  height: 400px;
+  border-radius: 100px;
+}
+.linkmenu {
+  text-decoration: none;
+  color: brown;
+  margin-left: 20px;
+}
+a:hover {      
+  color: black;      
+}
+.habilidades {
+  background: white;
+  width: 320px;
+  border-radius: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 10px;
+  padding-left: 10px;    
+}
+.titulohabilidades {
+  color: white;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.titulocontato {
+  text-align: center;
+  padding-bottom: 50px;
+}
+.linkwhatsapp {
+  color: white;
+  background: green;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.outroscontatos {
+  padding-top: 30px;
+}
+@media (max-width: 600px){
+  .menu{
+    display: none;
+  }
+  .habilidades {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+  }
+}
